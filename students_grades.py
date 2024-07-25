@@ -2,7 +2,7 @@ n = int(input())
 students_grades = dict()
 
 for _ in range(n):
-    name, grade = input().split(" ")
+    name, grade = input().split()
 
     if name not in students_grades:
         students_grades[name] = list()
